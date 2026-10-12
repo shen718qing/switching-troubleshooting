@@ -56,15 +56,8 @@ jiaohuanjishu/
 
 - 这里是列表文本PC1 执行 ping 10.1.1.3 及 ping 20.1.1.3 测试连通性。
 
-参与贡献
-Fork 本仓库
 
-提交代码
+说明与避坑
 
-特技（附加说明与避坑）
-
-Gitee 官方博客 blog.gitee.com。
-
-你可以 https://gitee.com/explore 这个地址来了解 Gitee 上的优秀开源项目。
 
 避坑提示：在 eNSP 中，交换机接口配置 Trunk 后建议使用 display port vlan 确认放通列表。GVRP 依赖底层 Trunk 链路的连通性，务必先确保 Trunk 放通了所需的 VLAN。
