@@ -12,7 +12,7 @@
 - 现象：SW4未被选举为根桥。
 - 排障思路：1.检查SW4接口的端口角色--`display stp brief`在该拓扑中根桥的接口角色应该是`DESI`。
            2.接口缺失则检查接口是否被`stp disable`。
-           3.通过`display stp`查看自身的BID与根桥的BID并使用`stp process`去修改。
+           3.通过`display stp`查看自身的BID与根桥的BID并使用`stp priority`去修改。
 - 结果：1.SW4的Ethernet0/0/4被`stp disable`。
        2.优先级不如SW2，修改使其变成根桥。
 
